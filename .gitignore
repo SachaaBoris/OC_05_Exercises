@@ -1,0 +1,12 @@
+*.au3
+*.bat
+_WorkDir/*
+.idea/*
+venv/*
+Include/*
+Lib/*
+Scripts/*
+__pycache__/*
+**/__pycache__/
+__pycache__
+*/__pycache__/*

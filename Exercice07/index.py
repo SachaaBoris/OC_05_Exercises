@@ -1,9 +1,16 @@
 def square(n):
-    # Vérifier si n est un int ou un float
-    if isinstance(n, (int, float)):
+    """
+    Renvoie le carré du nombre donné.
+    
+    Parameters:
+    n (int or float): Le nombre à élever au carré.
+    
+    Returns:
+    int or float: Le carré du nombre si n est un int ou float, sinon None.
+    """
+    try:
         return n ** 2
-    else:
-        print("Le paramètre doit être un nombre !")
+    except TypeError:
         return None
 
 print(square(8))     # Devrait retourner 64

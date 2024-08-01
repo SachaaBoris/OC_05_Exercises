@@ -9,8 +9,6 @@ def count_vowels(word):
             count += 1
     return count
 
-for word in words:
-    num_vowels = count_vowels(word)
-    vowel_counts.append((word, num_vowels))
+vowel_counts = [(word, count_vowels(word)) for word in words]
 
 print(vowel_counts)

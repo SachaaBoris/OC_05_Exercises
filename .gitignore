@@ -5,6 +5,7 @@ _WorkDir/*
 venv/*
 Include/*
 Lib/*
+.vs/*
 Scripts/*
 __pycache__/*
 **/__pycache__/

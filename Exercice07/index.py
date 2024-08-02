@@ -11,6 +11,7 @@ def square(n):
     try:
         return n ** 2
     except TypeError:
+        print("Le paramètre doit être un nombre !")
         return None
 
 print(square(8))     # Devrait retourner 64
